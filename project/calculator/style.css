@@ -1,0 +1,30 @@
+#calculator{
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: fit-content;
+    margin: auto;
+}
+
+#screen{
+    border: 1px solid grey;
+    border-radius: 1rem;
+
+    height: 4rem;
+    margin: 1rem;
+}
+
+#keyboard{
+    display: grid;
+    grid-template-areas: "sum sub mult div" "7 8 9 ac" "4 5 6 equal" "1 2 3 equal" "0 0 dot equal";
+    margin: 1rem;
+    text-align: center;
+}
+
+.key{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    padding: auto;
+}
